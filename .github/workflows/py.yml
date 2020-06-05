@@ -11,8 +11,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:{
-    file:"myscript.py",
+    steps:
+      - {
+    file:"myScript.py",
     output:"Hello world, this is Edidiong Emmanuel Ekanem with HNGi7 ID HNG-05206
     name:"Edidiong Emmanuel Ekanem",
     id:"HNG_05206",
